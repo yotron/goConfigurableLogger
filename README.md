@@ -34,12 +34,8 @@ The setup of the logs shall be done in that way.
 `log_file`: If you write to a file, you have to setup the logfile. If you only want to write to a logfile in you root
 folder of the project, you do not need a folder path for the file.
 
-## How to use the debugger
-You can import the logger in your package in that way:
-
-. "### TBD ##"
-
-Th following log level are provided. 
+## Log level and formatting
+The following log level are provided. 
 
 - `info`
 - `warn`
@@ -52,7 +48,19 @@ This means for example, in with the log level `debug` all other messages will be
 All log level inherits from the ordinary log package of Golang (https://golang.org/pkg/log). 
 All string formatting functions like `Println`, `Printf` ... are supported please have a look at (https://golang.org/pkg/log/#Logger)
 
-Here are some example how to use the logger within your project:
+## Get the logger within your project
+You can get the project with a simple:
+
+`go get github.com/yotron/goConfigurableLogger`  
+
+We recommend to import the project into your GOROOT folder.
+
+## How to use the debugger
+You can import the logger in your golang package in that way:
+
+`import . "github.com/yotron/goConfigurableLogger"`
+
+When you import the logging that way, you can use the logging tool in that way within your golang-package.
 
 `Info.Println("That is my message.")`
 
