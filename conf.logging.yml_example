@@ -1,0 +1,4 @@
+---
+log_level: info ## Possible "debug", "info", "warn", "error"
+log_writer: file ## possible "file", "stdout", "discard"
+log_file: metrics_exporter.log
