@@ -4,7 +4,8 @@
 Data Management with NOSQL and SQL-Databases. Visit us on [ www.yotron.de ](http://www.yotron.de)
 
 # goConfigurableLogger
-This project is a small and simple logging tool for Go projects which is configurable via a configuration File.
+This project is a small and simple logging tool for Go projects which is configurable via a configuration File. 
+The log entries are all preformatted with the loglevel and a human readable timestamp. 
 
 With this project you can Setup a logger which is configurable centrally with a log file in your project.
 The file is located in your root folder of your go project. You are able to manage
@@ -69,3 +70,9 @@ When you import the logging that way, you can use the logging tool in that way w
 `Error.Println("File malformed:", path, "Error:", err)`
 
 `Debug.Printf("Debug: %message - %error", mss, err)`
+
+The log entry i preformatted. The result is looking like that example.
+```
+ERROR: 2020/01/17 15:46:31 common.go:140: Could not convert string:  Error: strconv.ParseInt: parsing "": invalid syntax
+INFO: 2020/01/17 16:01:04 prometheus.go:33: Parallelization set to: 1
+```
