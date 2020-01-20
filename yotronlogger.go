@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package yotronlogger
+package goConfigurableLogger
 
 import (
 	"gopkg.in/yaml.v2"
