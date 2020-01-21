@@ -76,3 +76,12 @@ The log entry i preformatted. The result is looking like that example.
 ERROR: 2020/01/17 15:46:31 common.go:140: Could not convert string:  Error: strconv.ParseInt: parsing "": invalid syntax
 INFO: 2020/01/17 16:01:04 prometheus.go:33: Parallelization set to: 1
 ```
+
+### own credentials
+You are searching for similar clustered Testenvironments. Don't hesitate to get in touch.
+
+created by [Joern Kleinbub](https://github.com/joernkleinbub), YOTRON, 21.01.2020
+
+Vist me at [LinkedIn](https://www.linkedin.com/in/j%C3%B6rn-kleinbub/) 
+
+Or via EMail <joern.kleinbub@yotron.de>, www.yotron.de
