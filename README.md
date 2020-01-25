@@ -3,21 +3,21 @@
 [YOTRON](http://www.yotron.de) is a consultancy company which is focused on DevOps, Cloudmanagement and 
 Data Management with NOSQL and SQL-Databases. Visit us on [ www.yotron.de ](http://www.yotron.de)
 
-# Menu
+## Content
 
 - [ goConfigurableLogger](#goconfigurablelogger)
 
->- [ Example Configuration file](#example-configuration-file)
+  - [ Example Configuration file](#example-configuration-file)
 
->- [ Setup of the configuration file](#setup-of-the-configuration-file)
+  - [ Setup of the configuration file](#setup-of-the-configuration-file)
 
->- [ Log level and formatting](#log-level-and-formatting)
+  - [ Log level and formatting](#log-level-and-formatting)
 
->- [ Get the logger within your project](#get-the-logger-within-your-project)
+  - [ Get the logger within your project](#get-the-logger-within-your-project)
 
->- [ How to use the debugger](#how-to-use-the-debugger)
+    - [ How to use the debugger](#how-to-use-the-debugger)
 
->>- [ own credentials](#own-credentials)
+    - [ own credentials](#own-credentials)
 
 # goConfigurableLogger
 This project is a small and simple logging tool for Go projects which is configurable via a configuration File. 
